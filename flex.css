@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* flex-direction: row-reverse; */
+    
+}
+
+.el-1 {
+    background-color: whitesmoke;
+}
+
+.el-2 {
+    background-color: aquamarine;
+}
+
+.el-3 {
+    background-color: skyblue;
+}
+
+.el-4 {
+    background-color: red;
+    /* order: -1; */
+}
+
+.el-5 {
+    background-color: blue;
+    
+}
+
+.el-1, .el-2, .el-3, .el-4, .el-5 {
+    padding: 4px;
+}
+    
